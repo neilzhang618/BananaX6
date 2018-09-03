@@ -7,7 +7,7 @@
 				while ( have_posts() ) :
 					the_post(); ?>
                     <article class="article-item">
-                        <span class="article-time"><?php the_time( 'Y-n-j' ) ?></span>
+                        <span class="article-time"><?php the_time( 'Y-m-d' ) ?></span>
                         <a class="article-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                     </article>
 				<?php endwhile; ?>

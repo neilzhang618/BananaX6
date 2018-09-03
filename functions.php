@@ -44,7 +44,7 @@ function bananax6_comments( $comment, $args, $depth ) {
 
             </div>
 			<?php if ( $comment->comment_approved == '0' ) : ?>
-                <div class="alert alert-info"><?php _e( '您的评论正在等待审批。' ); ?></div>
+                <div class="alert alert-info"><?php _e( '您的评论正在等待审核' ); ?></div>
 			<?php endif; ?>
 
 			<?php comment_text(); ?>
@@ -68,7 +68,3 @@ function bananax6_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'bananax6_js' );
-
-?>
-
-

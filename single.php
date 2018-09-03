@@ -15,9 +15,9 @@
                         <div class="info">
                             <span class="item">作者：<?php the_author() ?><span
                                     class="split"> • </span></span>
-                            <span class="item">发布于：<?php the_time( 'Y-n-j' ) ?><span
+                            <span class="item">发布于：<?php the_time( 'Y-m-d' ) ?><span
                                     class="split"> • </span></span>
-                            <span class="item">最后修改于：<?php the_modified_time( 'Y-n-j' ) ?></span>
+                            <span class="item">最后修改于：<?php the_modified_time( 'Y-m-d' ) ?></span>
                         </div>
 						<?php the_content(); ?>
 					<?php endif; ?>
